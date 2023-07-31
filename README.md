@@ -2,7 +2,7 @@
 IMDB Clone made using the OMDB API
 A mini IMDB clone app in which we can search movies based on OMDB API, with search suggestions. Clicking on a particular movie card opens a new movie page for more info. On clicking on the watchList button, we can add a movie to the watchList which is using local storage to store movies.
 
-### Hosted link: [IMDB-clone](https://rahul4019.github.io/IMDB-clone/)
+### Hosted link: [IMDB-clone](https://chetanbargali.github.io/IMDb-clone-FrontEnd-skill-test-2/index.html)
 
 ## Tools used:
 * HTML

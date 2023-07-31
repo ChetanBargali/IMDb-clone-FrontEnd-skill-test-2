@@ -1,0 +1,156 @@
+/* Set the base styles for the body */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url('Assets/bg-movieDetails.jpg'); /* Background image for the body */
+}
+
+/* Styles for anchor tags (hyperlinks) */
+a {
+    text-decoration: none; /* Remove underlines from anchor tags */
+    color: whitesmoke; /* Set the text color for anchor tags to whitesmoke */
+}
+
+/* Styles for italic elements */
+i {
+    color: #ffffff; /* Set the text color for italic elements to white */
+}
+
+/* Styles for the navigation bar */
+#nav-bar {
+    height: 60px;
+    width: 100%;
+    background-color: #121212; /* Background color for the navigation bar */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px 0;
+    opacity: 0.9; /* Set the opacity for the navigation bar */
+}
+
+/* Styles for the logo in the navigation bar */
+.nav-logo img {
+    /* margin-left: 50px; */
+    height: 50px;
+    width: 100px;
+}
+
+/* Styles for the "Home" link in the navigation bar */
+.nav-home {
+    /* margin-right: 50px; */
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+/* Styles for the "Watchlist" link in the navigation bar */
+.nav-watchlist {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+/* Styles for the elements with the "border" class */
+.border {
+    border: 1px solid transparent; /* Set a transparent border for these elements */
+}
+
+/* Styles for the hover effect on elements with the "border" class */
+.border:hover {
+    border-color: white; /* Change the border color to white on hover */
+}
+
+/* Styles for the movie container */
+.movie-container {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 2px rgb(136, 24, 24);
+}
+
+/* Styles for the icons inside the movie container */
+.icon i {
+    color: #EA573A; /* Set the color of the icons to EA573A */
+}
+
+/* Styles for the hover effect on icons */
+.icon i:hover {
+    color: darkred; /* Change the color of the icons to darkred on hover */
+}
+
+/* Styles for the movie poster inside the movie container */
+.movie-poster {
+    width: 50%;
+}
+
+/* Styles for the movie poster image */
+.movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Styles for the movie details inside the movie container */
+.movie-details {
+    width: 100%;
+    padding: 0px 10px 0px 20px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* Styles for italic text */
+.italics-text i {
+    color: black; /* Set the color of italic text to black */
+}
+
+/* Styles for the hover effect on italic text */
+.movie-details i:hover {
+    color: darkred; /* Change the color of italic text to darkred on hover */
+}
+
+/* Styles for the awards text inside the movie details */
+.movie-details p i {
+    color: #EAE101; /* Set the color of the awards text to #EAE101 */
+}
+
+/* Styles for the header section inside the movie details */
+.details-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Styles for the title section inside the header */
+.title {
+    width: 87%;
+}
+
+/* Styles for the icon section inside the header */
+.icon {
+    text-align: right;
+    width: 10%;
+    padding: 5px 0px 0px 0px;
+}
+
+/* Styles for the header title */
+.details-header h1 {
+    padding-bottom: 0px;
+}
+
+/* Styles for the italic text section */
+.italics-text {
+    font-size: 15px;
+    color: #555; /* Set the color of italic text to #555 */
+}
+
+/* Styles for the unordered list inside the movie details */
+.details-ul {
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 15px;
+    margin-top: 10px;
+}

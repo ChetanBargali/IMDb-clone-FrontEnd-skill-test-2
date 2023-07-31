@@ -1,0 +1,120 @@
+/* Set the base styles for the body */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-image: url('Assets/bg-watchList.jpg'); /* Background image for the body */
+}
+
+/* Styles for anchor tags (hyperlinks) */
+a {
+    text-decoration: none; /* Remove underlines from anchor tags */
+    color: whitesmoke; /* Set the text color for anchor tags to whitesmoke */
+}
+
+/* Styles for italic elements */
+i {
+    color: #ffffff; /* Set the text color for italic elements to white */
+}
+
+/* Styles for the navigation bar */
+#nav-bar {
+    height: 60px;
+    width: 100%;
+    background-color: #121212; /* Background color for the navigation bar */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4px 0;
+    opacity: 0.9; /* Set the opacity for the navigation bar */
+}
+
+/* Styles for the logo in the navigation bar */
+.nav-logo img {
+    height: 50px;
+    width: 100px;
+}
+
+/* Styles for the title in the navigation bar */
+.title {
+    color: #ffffff; /* Set the text color for the title to white */
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Styles for the "Home" link in the navigation bar */
+.nav-home {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+/* Styles for the elements with the "border" class */
+.border {
+    border: 1px solid transparent; /* Set a transparent border for these elements */
+}
+
+/* Styles for the hover effect on elements with the "border" class */
+.border:hover {
+    border-color: white; /* Change the border color to white on hover */
+}
+
+/* Styles for the container that holds the watchlist items */
+.watchList-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+/* Styles for each watchlist item */
+.watchList-item {
+    width: 22.4%;
+    padding: 10px;
+    margin: 0px 5px 25px 5px;
+    background-color: white;
+    box-shadow: 2px 2px 4px 2px rgb(136, 24, 24);
+    border-radius: 5px;
+}
+
+/* Styles for anchor tags (hyperlinks) inside each watchlist item */
+.watchList-item a {
+    /* text-decoration: none; */
+    color: inherit;
+}
+
+/* Styles for the movie poster image inside each watchlist item */
+.watchList-poster img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+/* Styles for the box that holds movie details inside each watchlist item */
+.watchList-details-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px 5px 0px;
+}
+
+/* Styles for the trash icon inside each watchlist item */
+.watchList-details-box i {
+    color: red; /* Set the color of the trash icon to red */
+    margin-top: 25px;
+}
+
+/* Styles for the movie name inside each watchlist item */
+.watchList-movie-name {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+
+/* Styles for the movie year inside each watchlist item */
+.watchList-movie-year {
+    color: #888;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 0rem;
+}
